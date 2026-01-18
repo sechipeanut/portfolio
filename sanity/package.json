@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-sanity-studio",
+  "version": "1.0.0",
+  "description": "Sanity Studio for Portfolio CMS",
+  "main": "sanity.config.js",
+  "scripts": {
+    "dev": "sanity dev",
+    "start": "sanity start",
+    "build": "sanity build",
+    "deploy": "sanity deploy"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@sanity/vision": "^5.4.0",
+    "sanity": "^5.4.0",
+    "styled-components": "^6.3.8"
+  }
+}
