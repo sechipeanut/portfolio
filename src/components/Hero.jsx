@@ -71,10 +71,14 @@ const Hero = () => {
         >
           {/* Logo/Avatar */}
           <motion.div 
-            className="w-32 h-32 rounded-full bg-gradient-to-br from-primary to-tertiary flex items-center justify-center shadow-2xl"
+            className="w-32 h-32 rounded-full overflow-hidden shadow-2xl border-4 border-primary border-opacity-50"
             variants={itemVariants}
           >
-            <span className="text-6xl font-bold text-white">F</span>
+            <img 
+              src="https://cdn.franzvallesmedia.com/portfolio-assets/profile.jpg" 
+              alt="Franz Valles"
+              className="w-full h-full object-cover"
+            />
           </motion.div>
           
           {/* Bio Content */}
