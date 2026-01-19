@@ -1,3 +1,4 @@
+import { SpeedInsights } from '@vercel/speed-insights/react'
 import Hero from './components/Hero'
 import Toolbox from './components/Toolbox'
 import Experience from './components/Experience'
@@ -12,6 +13,7 @@ function App() {
       <Experience />
       <ContactForm />
       <Footer />
+      <SpeedInsights />
     </div>
   )
 }
