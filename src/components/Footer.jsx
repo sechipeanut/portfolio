@@ -49,7 +49,7 @@ const Footer = () => {
           {/* Copyright */}
           <div className="text-center md:text-left">
             <p className="text-gray-400 text-sm">
-              © 2022-{currentYear} pranchi.xyz. All rights reserved.
+              © pranchi.xyz 2022-{currentYear}. All rights reserved.
             </p>
             <p className="text-gray-500 text-xs mt-1">
               Built with React, Vite & Tailwind CSS
